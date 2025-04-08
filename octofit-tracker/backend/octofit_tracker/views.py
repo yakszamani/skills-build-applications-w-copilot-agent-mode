@@ -5,7 +5,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
 
 def get_base_url():
-    return "https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev/"
+    return "https://curly-fishstick-9gpg57p7v5xh97v4-8000.app.github.dev/"
 
 @api_view(['GET'])
 def api_root(request, format=None):
